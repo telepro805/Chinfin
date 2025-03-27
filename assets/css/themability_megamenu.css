@@ -1301,6 +1301,11 @@ ul.themability_megamenu  ul.subcategory {
     }
     ul.themability_megamenu{
         padding: 0;
+        display: grid;
+        padding: 20px;
+    }
+    ul.themability_megamenu>li{
+        padding: 10px;
     }
 }
 
@@ -1577,3 +1582,17 @@ ul.themability_megamenu  ul.subcategory {
 }
 
 /* .mega_menu full_width */
+/* other */
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) { 
+
+    .cols{
+        width: 100% !important;
+    }
+    #top{
+        display: none;
+    }
+    #logo{
+        margin-top: 25px !important;
+    }
+}
+

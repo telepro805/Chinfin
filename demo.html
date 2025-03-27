@@ -3,79 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gold Investment Options</title>
+    <title>Profile Card Design</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .card {
-            border: none;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
         }
-        .card:hover {
+        .profile-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 350px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .profile-card:hover {
             transform: translateY(-5px);
         }
-        .card img {
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            height: 200px;
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
             object-fit: cover;
+            margin-top: -60px;
+            border: 5px solid #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         }
-        .btn-primary {
-            background-color: #003366;
-            border: none;
+        .profile-name {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 10px;
         }
-        .btn-primary:hover {
-            background-color: #002244;
+        .profile-subheading {
+            font-size: 14px;
+            color: #777;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .profile-text {
+            font-size: 14px;
+            color: #555;
+            padding: 0 10px;
         }
     </style>
 </head>
 <body>
-    <div class="container py-5">
-        <div class="row g-4">
-            <div class="col-md-6">
-                <div class="card">
-                    <img src="buy-digital-gold.jpg" alt="Buy Digital Gold" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Buy Digital-Gold</h5>
-                        <p class="card-text">Buy 24k 999 and BIS/NABL hallmarked pure digital gold online from the comfort of your home.</p>
-                        <a href="#" class="btn btn-primary">View Details →</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <img src="buy-digital-silver.jpg" alt="Buy Digital Silver" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Buy Digital-Silver</h5>
-                        <p class="card-text">Invest in digital silver to diversify your investment portfolio and obtain maximum returns.</p>
-                        <a href="#" class="btn btn-primary">View Details →</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <img src="gold-loan.jpg" alt="Gold Loan" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Gold Loan</h5>
-                        <p class="card-text">Get instant, secure, flexible, and lowest-interest loans against your gold in the most hassle-free manner.</p>
-                        <a href="#" class="btn btn-primary">View Details →</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <img src="sell-old-gold.jpg" alt="Sell Old Gold" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Sell Old Gold</h5>
-                        <p class="card-text">The instant, trusted, transparent, and most convenient way to exchange your old gold for instant cash at the best prices.</p>
-                        <a href="#" class="btn btn-primary">View Details →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
